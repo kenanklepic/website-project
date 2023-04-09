@@ -1,0 +1,443 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+}
+/*.header {
+        
+
+    background-position: center;
+    height: 190px;
+    width: 100%;
+   
+}*/
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #ccd5ae; 
+    align-items: center;
+    padding-top: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ccd5ae; 
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar img{
+    width: 80px;
+    height: 60px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+.navbar ul li a:hover{
+    color: rgb(240, 248, 248);
+    transition: 0.5s;
+}
+
+#about{
+
+    background-size: cover; 
+    height: 100vh;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#about div{
+    height: 100%;
+    width: 100%;
+    /*border: 1px solid black;*/
+    justify-content: center;
+    text-align: center;
+
+}
+
+#about .div h1{
+    font-size: 500px;
+    text-align: justify;
+}
+
+#about p{
+  font-size: 25px;
+  text-align: justify;
+}
+
+.first{
+
+    align-items: center;
+
+}
+
+
+
+.first img{
+    float: right;
+    height: 50px;
+    width: 50px;
+
+}
+
+.second{
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 60px;
+  text-align: justify;
+  
+
+}
+
+#section1{
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+}
+
+#sectionP{
+  font-size: 60px;
+}
+
+.second .pic1{
+  position: absolute;
+  right: 300px;
+  bottom:-50px;
+  height: 50px;
+  width: 100px;
+  border: 0px solid black;
+  display: inline;
+
+}
+
+.second .pic2{
+  position: absolute;
+  left: 300px;
+  bottom:-50px;
+  height: 50px;
+  width: 100px;
+  border: 0px solid black;
+  display: inline;
+
+}
+
+
+
+
+/*.about img{
+    display: inline-block;
+    justify-content: center;
+    width: 50px;
+}
+
+.about h{
+
+    font-size: 50px;
+    display: block;
+    margin-bottom: 10px;
+
+
+}
+
+
+.about p{
+
+    padding: 20px;
+    margin:auto;
+    max-width: 600px;
+    text-align: justify;
+    font-size: 20px;
+
+}*/
+
+.footer{
+    background-color: #ccd5ae;
+    padding: 30px;
+display: flex;
+justify-content: space-between;
+font-size: 15px;
+
+}
+
+.footer p{
+  font-size: 15px;
+}
+
+footer ul{
+  display: inline;
+}
+
+
+.footer ul li{
+    list-style: none;
+    padding: 0 10px;
+    display: inline-block;
+    align-content: center;
+
+}
+.footer ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.contF{
+  display:block;
+}
+
+.socF{
+  display: flex;
+  flex-direction: column;
+}
+.socF img{
+  margin:5px;
+  height: 25px;
+  width: 25px;
+}
+/*-----------------------------------------*/
+
+.container {
+    position: relative;
+    
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+
+  .mySlides img{
+    height: 750px;
+    float: center;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color:black;
+    background-color: #d4a373;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .position {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+
+  #containerGal{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    
+ 
+    padding: 20px;
+}
+
+.picture{
+   
+    border-radius: 30px;
+    margin: 5px;
+    border: 3px solid #faedcd;
+    width: 400px;
+    transition: transform .2s;
+    padding: 52px;
+    margin-bottom: 50px;
+}
+
+
+.picture img{
+    width: 100%;
+    height: auto;
+
+}
+
+.picture:hover{
+    transform: scale(1.1);
+}
+
+.picture desc{
+    padding: 50px;
+    text-align: center;
+}
+.footer{
+    background-color: #ccd5ae;
+    padding: 30px;
+display: flex;
+justify-content: space-between;
+
+}
+
+/*services*/
+
+
+#containerSer{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+
+}
+
+#containerSer div{
+  height: 550px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border:2px solid #faedcd;
+  border-radius: 30px;
+  padding-top: 0px;
+
+}
+
+#containtainerSer img:hover{
+  border: 1px solid #777;
+}
+
+#containerSer h1{
+  padding: 20px;
+}
+
+#containerSer p{
+  padding-bottom: 30px;
+}
+#containerSer img{
+  height: 300px;
+  width: 300px;
+}
+
+ button{
+
+  background-color: #faedcd;
+  border: none;
+  text-decoration: none;
+  width: 30vh;
+  height: 10vh;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/*Contacts*/
+
+.contactCont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  padding: 0 10px;
+  
+}
+
+.contInf{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 500px;
+  width: 50%;
+  background-color: #faedcd;
+  border: 2px soild #faedcd;
+  float: center;
+}
+
+.contInf button{
+  border: 4px solid palevioletred;
+  width: 100%;
+  border-radius: 0%;
+}
+
+ .contactCont p{
+  font-size: 25px;
+
+}
+
+.expectedOutput{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  height: 500px;
+  width: 50%;
+  background-color: aliceblue;
+
+}
